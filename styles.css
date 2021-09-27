@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Stick+No+Bills&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@800&display=swap');
+
+:root {
+    --primary-color: #93C5FD;
+}
+
+body {
+    font-family: 'Stick No Bills', sans-serif;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+.container h3 {
+    font-weight: lighter;
+}
+.navigation {
+    background-color: var(--primary-color);
+    color: black;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    letter-spacing: 1.2rem;
+}
+
+#txt-input {
+    display: block;
+    width: 80%;
+    min-height: 10vh;
+    max-height: 20vh;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#btn-translate {
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: larger;
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
+    background-color: var(--primary-color);
+    color: black;
+    border-radius: 1rem;
+}
+
+#output-div {
+    height: 10vh;
+    border: 1px solid black;
+    display: block;
+    width: 80%;
+    min-height: 10vh;
+    max-height: 20vh;
+    margin: 1rem;
+    padding: 1rem;
+    overflow: scroll;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    color: black;
+    font-size: large;
+    padding: 1rem 1rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-heading {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.description {
+    line-height: 1.5rem;
+}
